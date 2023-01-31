@@ -5,7 +5,7 @@ using UnityEngine;
 public class characterController : MonoBehaviour
 {
     public CharacterController controller;
-    private Vector3 direction;
+    public Vector3 direction;
     public float speed = 8;
     public float sprintSpeed;
 
